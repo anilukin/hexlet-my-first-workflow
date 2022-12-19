@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+name: hello-world
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: make say-hello
